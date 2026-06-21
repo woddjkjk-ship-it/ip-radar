@@ -1,0 +1,78 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# allow example env to be committed
+!.env.local.example
+
+# project conventions
+/docs/scratch/
+
+# agent runtime artifacts (do not commit)
+.reasonix-logs/
+.reasonix-tasks/
+.claude/
+.qoder/
+.agents/
+/skills/
+skills-lock.json
+
+# internal docs (do not commit)
+docs/patsnap-api文档爬虫结果/
+docs/superpowers/
+docs/LIVE_MODE_*.md
+original-images/
+LIVE_MODE_*.md
+TEST_REPORT.md
+IP_Radar_项目介绍.*
+presentation.html
+
+# generated local test outputs
+test/test-results/
+
+# internal live API experiments
+src/scripts/test-ai66.ts
+test/OVERALL_PLAN.md
+test/ROUND2_ROUND3_PLAN.md
+test/api-credit-tester.mjs
+test/round2-data-deepseek.mjs
+test/round3-ai66-fto.mjs
+test/milestones/

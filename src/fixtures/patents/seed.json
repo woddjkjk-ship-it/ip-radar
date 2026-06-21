@@ -1,0 +1,118 @@
+[
+  {
+    "patentId": "550e8400-e29b-41d4-a716-446655440001",
+    "pn": "US20230123456A1",
+    "apno": "US17/945678",
+    "title": "跨模态注意力机制的多传感器融合感知方法及自动驾驶系统",
+    "originalAssignee": "Tesla, Inc.",
+    "currentAssignee": "Tesla, Inc.",
+    "inventor": "ZHANG, WEI|LI, XIAO",
+    "apdt": 20220930,
+    "pbdt": 20230420,
+    "authority": "US",
+    "abstract": "本发明公开了一种基于跨模态空间注意力的多传感器融合感知方法，通过对激光雷达点云、摄像头图像和毫米波雷达数据进行跨模态注意力融合，生成统一的时空特征表示，用于自动驾驶场景下的3D目标检测与运动预测。",
+    "claims": [
+      {
+        "number": 1,
+        "isIndependent": true,
+        "text": "一种多传感器融合感知方法，其特征在于：获取激光雷达点云数据、摄像头图像数据和毫米波雷达目标数据；对所述点云数据进行体素化处理，对所述图像数据进行分块嵌入，对所述雷达数据进行位置编码；通过跨模态注意力机制将三种模态的特征进行融合，生成空间融合特征；基于所述空间融合特征进行3D目标检测。"
+      },
+      {
+        "number": 2,
+        "isIndependent": false,
+        "text": "根据权利要求1所述的方法，其特征在于，还包括对连续多帧的空间融合特征施加时间自注意力机制，捕捉动态目标的运动轨迹。",
+        "parentClaim": 1
+      }
+    ],
+    "legalStatus": "active",
+    "ipcClasses": ["G06V20/58", "G06V10/80", "G01S17/86"],
+    "familySize": 8
+  },
+  {
+    "patentId": "550e8400-e29b-41d4-a716-446655440002",
+    "pn": "CN116123456A",
+    "apno": "CN202310123456.7",
+    "title": "一种基于时空注意力的自动驾驶环境感知方法与装置",
+    "originalAssignee": "华为技术有限公司",
+    "currentAssignee": "华为技术有限公司",
+    "inventor": "王明|李华|张强",
+    "apdt": 20230215,
+    "pbdt": 20230516,
+    "authority": "CN",
+    "abstract": "本申请提供一种基于时空注意力的自动驾驶环境感知方法，包括对多模态传感器数据进行特征提取，利用空间注意力实现跨模态特征融合，利用时间注意力对连续帧特征进行时序建模，并通过知识蒸馏将大模型压缩为轻量级推理网络。",
+    "claims": [
+      {
+        "number": 1,
+        "isIndependent": true,
+        "text": "一种自动驾驶环境感知方法，其特征在于，包括：获取多个传感器采集的原始数据，所述多个传感器包括激光雷达、摄像头和毫米波雷达；对所述原始数据分别进行特征提取，得到不同模态的特征表示；利用空间注意力机制对同一时刻的不同模态特征进行交叉注意力融合，得到空间融合特征；利用时间注意力机制对连续N帧的空间融合特征进行自注意力建模，得到时空融合特征；基于所述时空融合特征进行目标检测和运动预测。"
+      },
+      {
+        "number": 2,
+        "isIndependent": false,
+        "text": "根据权利要求1所述的方法，其特征在于，所述方法还包括：采用知识蒸馏策略，以大模型作为教师网络、轻量模型作为学生网络，将所述时空融合特征的计算过程压缩至车载端侧实时推理。",
+        "parentClaim": 1
+      }
+    ],
+    "legalStatus": "active",
+    "ipcClasses": ["G06V20/58", "G06N3/045", "G06N3/096"],
+    "familySize": 5
+  },
+  {
+    "patentId": "550e8400-e29b-41d4-a716-446655440003",
+    "pn": "US20240234567B2",
+    "apno": "US18/234567",
+    "title": "Multi-modal sensor fusion using cross-attention and knowledge distillation for autonomous vehicles",
+    "originalAssignee": "Waymo LLC",
+    "currentAssignee": "Waymo LLC",
+    "inventor": "HIGASHITANI, MITSUHARU|IKEMOTO, NORIAKI|HASE, TOMOMI",
+    "apdt": 20230815,
+    "pbdt": 20240718,
+    "authority": "US",
+    "abstract": "A perception system for autonomous vehicles that fuses LiDAR point clouds, camera images, and radar data using a cross-modal attention mechanism. The system generates unified spatial-temporal features for 3D object detection and motion prediction. A knowledge distillation pipeline compresses the teacher model (Swin-L) to a student model (EfficientDet) for real-time inference on NVIDIA Orin platform with latency under 30ms.",
+    "claims": [
+      {
+        "number": 1,
+        "isIndependent": true,
+        "text": "A method for multi-modal sensor fusion in an autonomous vehicle, comprising: receiving LiDAR point cloud data, camera image data, and radar target data; generating voxel tokens from the point cloud, patch tokens from the image, and position-encoded tokens from the radar data; applying cross-modal attention between said tokens to generate fused spatial features; applying temporal self-attention across consecutive frames of the fused spatial features; and performing 3D object detection and motion prediction based on the spatial-temporal features."
+      },
+      {
+        "number": 5,
+        "isIndependent": false,
+        "text": "The method of claim 1, further comprising training a lightweight student network via knowledge distillation from a teacher network to achieve inference latency under 30ms on an embedded automotive platform.",
+        "parentClaim": 1
+      }
+    ],
+    "legalStatus": "active",
+    "ipcClasses": ["G06V20/58", "G06V10/80", "G06N3/096"],
+    "familySize": 15
+  },
+  {
+    "patentId": "550e8400-e29b-41d4-a716-446655440004",
+    "pn": "EP4567890A1",
+    "apno": "EP2024056789",
+    "title": "Verfahren und System zur Sensordatenfusion für automatisiertes Fahren mittels Aufmerksamkeitsmechanismen",
+    "originalAssignee": "Robert Bosch GmbH",
+    "currentAssignee": "Robert Bosch GmbH",
+    "inventor": "MÜLLER, THOMAS|SCHMIDT, ANNA",
+    "apdt": 20240301,
+    "pbdt": 20241120,
+    "authority": "EP",
+    "abstract": "Die Erfindung betrifft ein Verfahren zur Fusion von Sensordaten für das automatisierte Fahren. Dabei werden Daten von LiDAR-, Kamera- und Radarsensoren mittels eines Transformer-basierten Aufmerksamkeitsmechanismus fusioniert, um eine robuste Umfeldwahrnehmung zu ermöglichen.",
+    "claims": [
+      {
+        "number": 1,
+        "isIndependent": true,
+        "text": "Verfahren zur Sensordatenfusion für ein automatisiertes Fahrzeug, umfassend: Empfangen von LiDAR-Punktwolkendaten, Kamerabilddaten und Radarzieldaten; Extrahieren von Merkmalen aus den jeweiligen Sensordaten; Fusionieren der Merkmale mittels eines cross-modalen Aufmerksamkeitsmechanismus; und Durchführen einer Objektdetektion basierend auf den fusionierten Merkmalen."
+      },
+      {
+        "number": 2,
+        "isIndependent": false,
+        "text": "Verfahren nach Anspruch 1, wobei der Aufmerksamkeitsmechanismus ein Multi-Head Cross-Attention Transformer ist.",
+        "parentClaim": 1
+      }
+    ],
+    "legalStatus": "active",
+    "ipcClasses": ["G06V20/58", "G06V10/80"],
+    "familySize": 6
+  }
+]

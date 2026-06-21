@@ -1,0 +1,16 @@
+[
+  {
+    "id": "report-001",
+    "title": "FTO 初审报告 — 时空注意力多模态感知融合方案",
+    "createdAt": "2026-05-20T10:30:00Z",
+    "riskSummary": { "high": 1, "medium": 2, "low": 1 },
+    "content": "# FTO 初审报告\n\n## 基本信息\n\n- **技术方案**: 基于时空注意力机制的多模态自动驾驶感知融合方法\n- **分析日期**: 2026-05-20\n- **检索范围**: US / CN / EP\n- **竞品池**: Tesla / Waymo / Mobileye / 华为车BU / 小鹏 / 地平线 / Nvidia\n\n## 技术要素\n\n- **技术问题**: 现有多模态融合方法中时空关联信息丢失、时间戳对齐误差导致融合不稳定、Transformer 在车载端侧推理延迟过高\n- **技术方案**: 跨模态空间注意力（LiDAR voxel + Camera patch + Radar position encoding）+ 时间注意力轨迹建模 + 知识蒸馏压缩\n- **创新点**: 三模态交叉注意力 + 时间窗口 temporal self-attention + Swin-L → EfficientDet 知识蒸馏\n\n## 风险评估\n\n### 🔴 高风险（1 项）\n\n| 专利号 | 标题 | 风险等级 | 命中权利要求 |\n|--------|------|----------|--------------|\n| US20240234567B2 | Multi-modal sensor fusion with cross-attention | 🔴 High | Claim 1, 5 |\n\n**规避建议**:\n1. 将跨模态注意力改为模态特定编码器 + 后期自适应加权融合\n2. 时间注意力部分改为基于 Kalman 滤波的轨迹平滑方案\n3. 知识蒸馏 Teacher 从 Swin-L 改为 ConvNeXt\n\n### 🟡 中风险（2 项）\n\n| 专利号 | 标题 | 风险等级 |\n|--------|------|----------|\n| CN116123456A | 基于时空注意力的自动驾驶环境感知方法 | 🟡 Medium |\n| US20230123456A1 | 跨模态注意力多传感器融合感知方法 | 🟡 Medium |\n\n### 🟢 低风险（1 项）\n\n| 专利号 | 标题 | 风险等级 |\n|--------|------|----------|\n| EP4567890A1 | Sensordatenfusion für automatisiertes Fahren | 🟢 Low |\n\n---\n*本报告由 IP Radar FTO Copilot 自动生成，仅供参考，不构成法律意见。*\n"
+  },
+  {
+    "id": "report-002",
+    "title": "FTO 初审报告 — 端到端自动驾驶规划与控制",
+    "createdAt": "2026-05-18T14:15:00Z",
+    "riskSummary": { "high": 0, "medium": 1, "low": 3 },
+    "content": "# FTO 初审报告\n\n## 基本信息\n\n- **技术方案**: 基于强化学习的端到端自动驾驶规划与控制系统\n- **分析日期**: 2026-05-18\n- **检索范围**: US / CN\n\n## 风险评估\n\n### 🟡 中风险（1 项）\n\n| 专利号 | 标题 | 风险等级 |\n|--------|------|----------|\n| CN119472680A | 一种自动驾驶车辆的环境感知方法及系统 | 🟡 Medium |\n\n### 🟢 低风险（3 项）\n\n无重大侵权风险。三篇低风险专利主要涉及传统路径规划和控制方法，与基于强化学习的端到端方案在技术路径上存在本质差异。\n\n---\n*本报告由 IP Radar FTO Copilot 自动生成，仅供参考，不构成法律意见。*\n"
+  }
+]

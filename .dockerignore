@@ -1,0 +1,16 @@
+.git
+.next
+node_modules
+.env.local
+.env*.local
+.reasonix-logs
+.reasonix-tasks
+.claude
+.qoder
+.agents
+coverage
+test/test-results
+LIVE_MODE_*.md
+TEST_REPORT.md
+docs/LIVE_MODE_*.md
+tsconfig.tsbuildinfo

@@ -1,0 +1,222 @@
+{
+  "keyword": {
+    "total": 4,
+    "results": [
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440001",
+        "pn": "US20230123456A1",
+        "apno": "US17/945678",
+        "title": "跨模态注意力机制的多传感器融合感知方法及自动驾驶系统",
+        "originalAssignee": "Tesla, Inc.",
+        "currentAssignee": "Tesla, Inc.",
+        "inventor": "ZHANG, WEI|LI, XIAO",
+        "apdt": 20220930,
+        "pbdt": 20230420,
+        "authority": "US"
+      },
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440002",
+        "pn": "CN116123456A",
+        "apno": "CN202310123456.7",
+        "title": "一种基于时空注意力的自动驾驶环境感知方法与装置",
+        "originalAssignee": "华为技术有限公司",
+        "currentAssignee": "华为技术有限公司",
+        "inventor": "王明|李华|张强",
+        "apdt": 20230215,
+        "pbdt": 20230516,
+        "authority": "CN"
+      },
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440003",
+        "pn": "US20240234567B2",
+        "apno": "US18/234567",
+        "title": "Multi-modal sensor fusion using cross-attention and knowledge distillation for autonomous vehicles",
+        "originalAssignee": "Waymo LLC",
+        "currentAssignee": "Waymo LLC",
+        "inventor": "HIGASHITANI, MITSUHARU|IKEMOTO, NORIAKI|HASE, TOMOMI",
+        "apdt": 20230815,
+        "pbdt": 20240718,
+        "authority": "US"
+      },
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440004",
+        "pn": "EP4567890A1",
+        "apno": "EP2024056789",
+        "title": "Verfahren und System zur Sensordatenfusion für automatisiertes Fahren mittels Aufmerksamkeitsmechanismen",
+        "originalAssignee": "Robert Bosch GmbH",
+        "currentAssignee": "Robert Bosch GmbH",
+        "inventor": "MÜLLER, THOMAS|SCHMIDT, ANNA",
+        "apdt": 20240301,
+        "pbdt": 20241120,
+        "authority": "EP"
+      }
+    ]
+  },
+  "semantic": {
+    "total": 5,
+    "results": [
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440003",
+        "pn": "US20240234567B2",
+        "apno": "US18/234567",
+        "title": "Multi-modal sensor fusion using cross-attention and knowledge distillation for autonomous vehicles",
+        "originalAssignee": "Waymo LLC",
+        "currentAssignee": "Waymo LLC",
+        "inventor": "HIGASHITANI, MITSUHARU|IKEMOTO, NORIAKI|HASE, TOMOMI",
+        "apdt": 20230815,
+        "pbdt": 20240718,
+        "authority": "US"
+      },
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440001",
+        "pn": "US20230123456A1",
+        "apno": "US17/945678",
+        "title": "跨模态注意力机制的多传感器融合感知方法及自动驾驶系统",
+        "originalAssignee": "Tesla, Inc.",
+        "currentAssignee": "Tesla, Inc.",
+        "inventor": "ZHANG, WEI|LI, XIAO",
+        "apdt": 20220930,
+        "pbdt": 20230420,
+        "authority": "US"
+      },
+      {
+        "patentId": "550e8400-e29b-41d4-a716-446655440002",
+        "pn": "CN116123456A",
+        "apno": "CN202310123456.7",
+        "title": "一种基于时空注意力的自动驾驶环境感知方法与装置",
+        "originalAssignee": "华为技术有限公司",
+        "currentAssignee": "华为技术有限公司",
+        "inventor": "王明|李华|张强",
+        "apdt": 20230215,
+        "pbdt": 20230516,
+        "authority": "CN"
+      },
+      {
+        "patentId": "horizon-fusion-001",
+        "pn": "CN115187785A",
+        "apno": "CN202210456789.1",
+        "title": "基于Transformer跨模态注意力机制的激光雷达-摄像头特征融合方法",
+        "originalAssignee": "地平线（北京）技术研发有限公司",
+        "currentAssignee": "地平线（北京）技术研发有限公司",
+        "inventor": "余凯|黄畅",
+        "apdt": 20220318,
+        "pbdt": 20221101,
+        "authority": "CN"
+      },
+      {
+        "patentId": "mobileye-fusion-001",
+        "pn": "US20220317280A1",
+        "apno": "US17/654321",
+        "title": "Radar-camera adaptive sensor fusion with uncertainty estimation for ADAS",
+        "originalAssignee": "Mobileye Vision Technologies Ltd.",
+        "currentAssignee": "Mobileye Vision Technologies Ltd.",
+        "inventor": "SHASHUA, AMNON|COHEN, DAVID",
+        "apdt": 20210908,
+        "pbdt": 20221006,
+        "authority": "US"
+      }
+    ]
+  },
+  "companies": {
+    "Tesla": {
+      "total": 4,
+      "results": [
+        {
+          "patentId": "tesla-fsd-001",
+          "pn": "US20230189045A1",
+          "apno": "US17/812345",
+          "title": "Pure vision 3D object detection using occupancy networks for autonomous driving",
+          "originalAssignee": "Tesla, Inc.",
+          "currentAssignee": "Tesla, Inc.",
+          "inventor": "KARPATHY, ANDREJ|ZHANG, WEI",
+          "apdt": 20220804,
+          "pbdt": 20230713,
+          "authority": "US"
+        },
+        {
+          "patentId": "tesla-fsd-002",
+          "pn": "US11741682B2",
+          "apno": "US16/998234",
+          "title": "Multi-camera bird's eye view feature synthesis for self-driving vehicle perception",
+          "originalAssignee": "Tesla, Inc.",
+          "currentAssignee": "Tesla, Inc.",
+          "inventor": "SMOLYANSKIY, NIKOLAI|CHEN, CHING",
+          "apdt": 20200815,
+          "pbdt": 20230829,
+          "authority": "US"
+        },
+        {
+          "patentId": "tesla-fsd-003",
+          "pn": "CN117456789A",
+          "apno": "CN202310987654.3",
+          "title": "基于纯视觉方案的3D目标检测与轨迹预测系统及方法",
+          "originalAssignee": "特斯拉（上海）有限公司",
+          "currentAssignee": "特斯拉（上海）有限公司",
+          "inventor": "张磊|李晓明",
+          "apdt": 20230218,
+          "pbdt": 20231205,
+          "authority": "CN"
+        },
+        {
+          "patentId": "tesla-fsd-004",
+          "pn": "US20240012345A1",
+          "apno": "US18/234567",
+          "title": "Vision transformer architecture for scalable autonomous vehicle perception pipeline",
+          "originalAssignee": "Tesla, Inc.",
+          "currentAssignee": "Tesla, Inc.",
+          "inventor": "ANDRADE, JOSE|PARK, SUNGHO",
+          "apdt": 20230502,
+          "pbdt": 20240111,
+          "authority": "US"
+        }
+      ]
+    },
+    "Waymo": {
+      "total": 1,
+      "results": [
+        {
+          "patentId": "550e8400-e29b-41d4-a716-446655440003",
+          "pn": "US20240234567B2",
+          "apno": "US18/234567",
+          "title": "Multi-modal sensor fusion using cross-attention and knowledge distillation for autonomous vehicles",
+          "originalAssignee": "Waymo LLC",
+          "currentAssignee": "Waymo LLC",
+          "inventor": "HIGASHITANI, MITSUHARU|IKEMOTO, NORIAKI|HASE, TOMOMI",
+          "apdt": 20230815,
+          "pbdt": 20240718,
+          "authority": "US"
+        }
+      ]
+    },
+    "华为车BU": {
+      "total": 1,
+      "results": [
+        {
+          "patentId": "550e8400-e29b-41d4-a716-446655440002",
+          "pn": "CN116123456A",
+          "apno": "CN202310123456.7",
+          "title": "一种基于时空注意力的自动驾驶环境感知方法与装置",
+          "originalAssignee": "华为技术有限公司",
+          "currentAssignee": "华为技术有限公司",
+          "inventor": "王明|李华|张强",
+          "apdt": 20230215,
+          "pbdt": 20230516,
+          "authority": "CN"
+        }
+      ]
+    },
+    "Nvidia": {
+      "total": 0,
+      "results": []
+    },
+    "Mobileye": {
+      "total": 0,
+      "results": []
+    }
+  },
+  "counts": {
+    "TACD: autonomous driving sensor fusion": 8234,
+    "TACD: multi-modal perception": 41193,
+    "TACD: cross attention knowledge distillation": 1523
+  }
+}
